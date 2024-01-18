@@ -1,0 +1,1 @@
+# vinits-repo-interactive-rating-component-main
