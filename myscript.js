@@ -11,15 +11,9 @@ document.addEventListener("DOMContentLoaded", function () {
   for (const button of ratingButtons) {
     button.addEventListener("click", function () {
       for (const btn of ratingButtons) {
-        btn.classList.remove("selected", "text-White");
-        if (btn.classList.contains !== "selected") {
-          btn.style.backgroundColor = "hsla(216, 12%, 54%, 0.15)";
-        }
+        btn.classList.remove("selected");
       }
-      this.classList.add("selected", "text-White");
-
-      const bgColor = document.querySelector(".selected");
-      bgColor.style.backgroundColor = "hsl(217, 12%, 63%)";
+      this.classList.add("selected");
     });
   }
 
